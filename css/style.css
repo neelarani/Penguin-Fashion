@@ -191,6 +191,7 @@ p {
   max-width: 100%;
   height: auto;
   background: rgb(255, 255, 255);
+  padding-top: 2rem;
 }
 
 .man-jaket-container {
@@ -233,6 +234,7 @@ p {
   max-width: 100%;
   height: auto;
   background: rgb(255, 255, 255);
+  padding-top: 4rem;
 }
 
 .contact-container {
@@ -245,15 +247,31 @@ p {
 }
 
 .box {
-  /* display: flex; */
-  /* flex-direction: column; */
-  width: 489px;
-  height: 135px;
-  justify-content: center;
+  display: flex;
+  width: 90%;
+  height: 8rem;
   border-radius: 20px;
   box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
   background: rgb(255, 255, 255);
   margin-top: 1rem;
+  padding: 1rem;
+}
+.content {
+  padding-left: 1.5rem;
+}
+
+.content h2 {
+  color: rgb(54, 57, 88);
+  font-family: Roboto;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.content p {
+  color: rgb(62, 62, 62);
+  font-family: Roboto;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 26px;
 }
 
 .icon img {
@@ -262,7 +280,7 @@ p {
 }
 
 .shopping-image {
-  width: 70%;
+  width: 40%;
   height: 20rem;
   display: flex;
   justify-content: space-between;
