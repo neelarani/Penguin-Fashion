@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Reset code starts here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Reset code ends here */
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+/* header style starts here */
+header {
+  background: rgb(255, 251, 240);
+}
+
+.navbar {
+  width: 80%;
+  height: 5rem;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo img {
+  width: 13rem;
+  height: 3rem;
+}
+
+.navigation-menu ul {
+  display: flex;
+  gap: 2rem;
+}
+.navigation-menu ul li {
+  justify-content: space-between;
+  list-style: none;
+}
+.navigation-menu ul li a {
+  text-decoration: none;
+  color: rgb(60, 60, 60);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* header style ends here */
+
+/* banner section style starts here */
+.banner-section {
+  max-width: 100%;
+  height: 29rem;
+  background: rgb(255, 251, 240);
+}
+.banner-container {
+  max-width: 80%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding-top: 2rem;
+}
+.banner-content {
+  width: 20rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  padding-top: 2.5rem;
+}
+.banner-content h2 {
+  font-size: 3.5rem;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400;
+}
+
+.banner-content span {
+  color: rgb(250, 190, 76);
+}
+.banner-content p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: rgb(62, 62, 62);
+  padding-bottom: 1rem;
+}
+.primary-button {
+  width: 10rem;
+  height: 4rem;
+  border-radius: 10px;
+  background: linear-gradient(
+    180deg,
+    rgb(164, 188, 70),
+    rgb(133, 160, 25) 100%
+  );
+  border: none;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+}
+.fa-cart-shopping {
+  position: absolute;
+  top: 17rem;
+  left: 2rem;
+  color: rgb(255, 255, 255);
+  font-size: 0.8rem;
+}
+
+.banner-image {
+  padding-right: 7rem;
+}
+
+.banner-image img {
+  width: 19rem;
+  height: 20rem;
+}
+
+/* banner section style ends here */
+
+/*Woman Jacket section style starts here */
+.woman-jacket-section {
+  max-width: 100%;
+  height: auto;
+  background: rgb(229, 229, 229);
+}
+
+.woman-jaket-container {
+  max-width: 90%;
+  height: auto;
+  border: 2px solid red;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.woman-jacket-section h2 {
+  color: rgb(54, 57, 88);
+  font-family: Bebas Neue;
+  font-size: 3rem;
+  font-weight: 400;
+  padding: 2rem 4rem;
+}
+.woman-cloth {
+  width: 20rem;
+  border-radius: 20px;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+  background: rgb(255, 255, 255);
+  padding: 1rem;
+}
+
+.woman-cloth img {
+  width: 17rem;
+  height: 18rem;
+  border-radius: 20px;
+  background: rgb(241, 241, 241);
+  padding: 1rem;
+  display: flex;
+  margin: 0 auto;
+}
+.doller {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  border: 2px solid red;
+  color: rgb(250, 190, 76);
+  font-family: Roboto;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+h3 {
+  color: rgb(54, 57, 88);
+  font-family: Roboto;
+  font-size: 1.3rem;
+}
+p {
+  color: rgb(62, 62, 62);
+  font-family: Roboto;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+/*Woman Jacket section style ends here */
