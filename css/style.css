@@ -17,7 +17,9 @@ body {
 header {
   background: rgb(255, 251, 240);
 }
-
+#hamburger {
+  display: none;
+}
 .navbar {
   max-width: 80%;
   height: 5rem;
@@ -304,7 +306,7 @@ p {
 /* Responsive design */
 
 @media screen and (max-width: 576px) {
-  .fa-bars {
+  #hamburger {
     display: block;
     font-size: 2rem;
     color: rgb(60, 60, 60);
